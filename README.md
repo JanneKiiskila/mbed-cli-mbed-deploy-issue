@@ -5,7 +5,7 @@ A simple repo to demostrate bug in `mbed deploy`. It does not handle correctly a
 ## Reproduction steps
 
 Install the normal cli tooling following the official Mbed OS documentation.
-Personaly, I highly recommend using a Python virtualenv for this.
+Personally, I highly recommend using a Python virtualenv for this.
 
 Check installation.
 
@@ -30,7 +30,7 @@ git checkout fork
 mbed deploy
 ```
 
-The deploy will fail with uknown hash.
+The deploy will fail as shown below.
 
 ```
 ~/mbed/mbed-cli-mbed-deploy-issue$ mbed deploy
