@@ -19,6 +19,7 @@ Start by `mbed import` with this repo.
 
 ```
 mbed import git@github.com:JanneKiiskila/mbed-cli-mbed-deploy-issue.git
+cd mbed-cli-mbed-deploy-issue/
 ```
 This will also do the mbed deploy automatically.
 
@@ -45,6 +46,7 @@ This is due to the fact, that the wifi-ism43362 git remote is still pointing to 
 original one, which of course does not have the same hashes as the fork.
 
 ```
+~/mbed/mbed-cli-mbed-deploy-issue/cd wifi-ism43362
 ~/mbed/mbed-cli-mbed-deploy-issue/wifi-ism43362$ git remote -v
 origin	https://github.com/ARMmbed/wifi-ism43362 (fetch)
 origin	https://github.com/ARMmbed/wifi-ism43362 (push)
